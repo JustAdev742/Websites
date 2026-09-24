@@ -6,18 +6,17 @@ The owner's bot scorer rewards "how much of a picture it paints": "A card earns 
 ## Type
 - **Crimson Pro** — Jacques Le Bailly / Fonthausen. Primary source: github.com/Fonthausen/CrimsonPro. SIL OFL 1.1, no Reserved Font Name. Embedded subset, full weight range 200–900. Fallback: generic serif only.
 - Weight map (the rule, applied word by word):
-  - 900 — names and numbers: JustAdev742, the three project names, Kaggle., ARC Prize 2026
+  - 900 — names and numbers: JustAdev742, the two project names, Kaggle., ARC Prize 2026
   - 800 — bodily words: hands.
-  - 700 — physical nouns: TV, table, phones, engine.
+  - 700 — physical nouns: TV, table, phones
   - 600 — addresses: joviangame.me, the Cards Against The Humanity address
-  - 500 — activity nouns: game
   - 300 — abstract or vague words: Developing, AI, stuff
-  - 200 — function words: The, is the, are the, My, on
+  - 200 — function words: The, is the, are the, on
 - Old-style figures; lining figures and case forms in "ARC-AGI-3" and "ARC Prize 2026". Case as written.
 
 ## Scale, line and space
 - One size clamp(30px, 1rem + 3.7vw, 72px); line-height 1.1; measure 15.5em.
-- Four paragraphs (host; Cards Against The Humanity; Jovian Engine; ARC-AGI-3), no space between them; each after the first indented 1.1em. Left aligned, ragged right, no hyphenation.
+- Three paragraphs (host; Cards Against The Humanity; ARC-AGI-3), no space between them; each after the first indented 1.1em. Left aligned, ragged right, no hyphenation.
 - Padding: sides clamp(20px, 5.5vw, 96px); top clamp(24px, 7vh, 80px); bottom clamp(48px, 12vh, 128px).
 
 ## Colour

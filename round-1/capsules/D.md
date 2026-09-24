@@ -14,7 +14,7 @@ In the game "the address bar only ever carries the table code, because that is t
 - Spine size = (viewport height − 2 × margin) ÷ 7.12, so its length is ≈ 98% of the height; line-height 1; reads bottom to top (vertical writing mode turned 180°).
 - Names clamp(20.8px, 0.95rem + 1.5vw, 36.8px), line-height 1.1. Small text clamp(15px, 0.9rem + 0.2vw, 17px), line-height 1.45.
 - Two-column grid: spine column (as wide as the spine's size) and content column (≤ 36rem); gap clamp(20px, 3.4vw, 64px); outer margin clamp(16px, 2.8vh, 36px) top, bottom and left.
-- The content column spans the spine's height, with space distributed between its four groups: handle at the top, the last project at the bottom. Name → sentence 0.6rem; sentence → address 0.15rem.
+- The content column spans the spine's height, with space distributed between its three groups: handle at the top, the last project at the bottom. Name → sentence 0.6rem; sentence → address 0.15rem.
 
 ## Colour
 - Canvas `#1d2a8a`.

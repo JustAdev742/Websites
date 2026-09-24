@@ -18,37 +18,32 @@ body{margin:0;background:#0d1521;color:#d8c6a2;font-family:"i",serif}
 }
 .log p{margin:0}
 .log section{--x:min(calc(100cqi / 7.6),10rem)}
-.e4{--s:var(--x)}
-.e3{--s:calc(var(--x) / var(--r))}
-.e2{--s:calc(var(--x) / (var(--r) * var(--r)))}
-.e1{--s:max(1rem,calc(var(--x) / (var(--r) * var(--r) * var(--r))))}
+.e3{--s:var(--x)}
+.e2{--s:calc(var(--x) / var(--r))}
+.e1{--s:max(1rem,calc(var(--x) / (var(--r) * var(--r))))}
 .name{font-size:var(--s);line-height:1.02;font-weight:450}
 .d{font-size:max(0.95rem,calc(var(--s) * 0.3));line-height:1.35;font-weight:400}
 .log section + section{margin-top:calc(var(--s) * 0.55)}
 .log .name + .d{margin-top:calc(var(--s) * 0.18)}
 .log .d + .name{margin-top:calc(var(--s) * 0.04)}
 .e1{color:#8195ae}
-.e4{color:#ffb347}
+.e3{color:#ffb347}
 @media (min-width:720px){.log{--r:2}}
 </style>
 </head>
 <body>
 <main class="log">
   <section class="e1">
-    <p class="name">Jovian Engine</p>
-    <p class="d">My game engine.</p>
-  </section>
-  <section class="e2">
     <p class="name">Cards Against The Humanity</p>
     <p class="d">The TV is the table, phones are the hands.</p>
     <p class="d">joviangame.me/<wbr>cards-against-the-humanity</p>
   </section>
-  <section class="e3">
+  <section class="e2">
     <p class="name">ARC-AGI-3</p>
     <p class="d">Developing AI stuff on Kaggle.</p>
     <p class="d">ARC Prize 2026</p>
   </section>
-  <section class="e4">
+  <section class="e3">
     <p class="d">JustAdev742</p>
     <p class="name">joviangame.me</p>
   </section>

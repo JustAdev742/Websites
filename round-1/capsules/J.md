@@ -14,7 +14,7 @@ ARC-AGI-3 agents are scored on how few actions they need compared with people, a
 
 ## Colour
 - Canvas `#dcd2f0`.
-- Secondary — the path (start and intermediate steps) `#2d2358` — ≈ 70% of ink — 9.7 : 1.
+- Secondary — the path (the start and the step between) `#2d2358` — ≈ 70% of ink — 9.7 : 1.
 - Primary — the goal block `#0b6638` — ≈ 30% — 4.9 : 1.
 
 ## Signature
@@ -23,7 +23,7 @@ A staircase of equal moves that ends at a goal in a different colour.
 ## Invariants
 A fixed step unit; always right and down; equal name sizes; the goal colour only on the goal.
 
-**Allowed variation:** step size; order of the intermediate steps.
+**Allowed variation:** step size; which project is the step between.
 **Prohibited normalization:** aligning blocks to one edge; varying name sizes; colouring intermediate steps.
 
 ## Assumptions and risks

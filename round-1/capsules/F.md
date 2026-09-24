@@ -11,7 +11,7 @@ The ARC-AGI-3 agent perceives game frames through "exact grid perception: compon
 ## Scale, line and space
 - Base b = 14px (< 760px), 15px (760–1179px), 16px (≥ 1180px).
 - Sizes: 1× (sentences, HUD), 2× (names), k× for the avatar handle with k = 3 / 4 / 6 by breakpoint. Line-height 1.5 of each size, so every line is a whole number of base rows.
-- Margins 3ch (narrow) or 6ch. Vertical order: 2 rows, HUD row (handle left, domain right), 1 row, avatar, 3 rows, entity grid. Entity columns 36ch, gap 4ch, row gap 3 rows; they flow 3 / 2 / 1 across by width. Inside an entity: name, 1 row, sentence, address.
+- Margins 3ch (narrow) or 6ch. Vertical order: 2 rows, HUD row (handle left, domain right), 1 row, avatar, 3 rows, entity grid. Entity columns 36ch, gap 4ch, row gap 3 rows; they flow 2 / 1 across by width. Inside an entity: name, 1 row, sentence, address.
 
 ## Colour
 - Canvas `#e8e8e2`.

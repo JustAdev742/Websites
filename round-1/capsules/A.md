@@ -5,15 +5,15 @@ Cards Against The Humanity is played with the TV as the shared table, read from 
 
 ## Type
 - **Truculenta** — Iván Castro, Eva Sanz and Omnibus-Type. Primary source: github.com/Omnibus-Type/Truculenta. Licence: SIL OFL 1.1, no Reserved Font Name; web embedding allowed. Embedded as a WOFF2 subset (Latin; opsz 12–72, wdth 100–110, wght 400–600). Fallback: generic sans-serif only; not proof of the direction.
-- **Far text (the table):** the three project names only. opsz 72, wdth 110, wght 560, tracking +0.004em, title case as written. "ARC-AGI-3" uses case-sensitive forms.
+- **Far text (the table):** the two project names only. opsz 72, wdth 110, wght 560, tracking +0.004em, title case as written. "ARC-AGI-3" uses case-sensitive forms.
 - **Near text (the hands):** everything else. opsz 12, wdth 100, wght 430, old-style figures.
 - No third size, weight or style exists.
 
 ## Scale, line and space
 - Near: clamp(13px, 0.7rem + 0.28vw, 15px), line-height 1.45, measure ≤ 21em.
-- Far: 8 × near, capped at 16.5vw (on a 390px phone the ratio falls to ≈ 5 : 1; "two sizes only" holds at every width). Line-height 0.98; 0.3em between names; lines of at most 13 characters: "Cards Against / The Humanity", "Jovian Engine", "ARC-AGI-3".
-- Page: full-viewport grid. Table at the top; an empty band (min 16vh, grows to fill) between; hands pinned to the bottom as one row of four blocks (two columns under 760px, one under 430px). Side margins clamp(20px, 4.4vw, 72px); top clamp(20px, 4.5vh, 56px); bottom clamp(20px, 4vh, 48px). Left aligned, ragged right. No overlap, no cropping.
-- Seat order in the hands row: host (JustAdev742, joviangame.me), then the three projects in the table's order.
+- Far: 8 × near, capped at 16.5vw (on a 390px phone the ratio falls to ≈ 5 : 1; "two sizes only" holds at every width). Line-height 0.98; 0.3em between names; lines of at most 13 characters: "Cards Against / The Humanity", "ARC-AGI-3".
+- Page: full-viewport grid. Table at the top; an empty band (min 16vh, grows to fill) between; hands pinned to the bottom as one row of three blocks (one column under 600px). Side margins clamp(20px, 4.4vw, 72px); top clamp(20px, 4.5vh, 56px); bottom clamp(20px, 4vh, 48px). Left aligned, ragged right. No overlap, no cropping.
+- Seat order in the hands row: host (JustAdev742, joviangame.me), then the two projects in the table's order.
 
 ## Colour
 - Canvas `#1a1512`.

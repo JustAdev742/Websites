@@ -8,7 +8,7 @@ The owner's bot README defines the joke as a register clash: "A prim setup with 
 - **Anybody** — Tyler Finck / Etcetera Type Co. Primary source: github.com/Etcetera-Type-Co/Anybody. SIL OFL 1.1, no Reserved Font Name. Embedded subset pinned at wdth 150, wght 900.
 - Fallbacks: generic serif / sans-serif only.
 - **Setup voice (prim):** Cormorant. Sentences in italic; the handle, the addresses and "ARC Prize 2026" in all small caps, tracking 0.2em (0.2em left padding re-centres the tracked line), old-style figures.
-- **Answer voice:** Anybody extended black, lowercase via text-transform, for the three project names only.
+- **Answer voice:** Anybody extended black, lowercase via text-transform, for the two project names only.
 
 ## Scale, line and space
 - Small caps clamp(17px, 0.98rem + 0.3vw, 20px), line-height 1.5. Header address (italic) clamp(18px, 1rem + 0.4vw, 22px).

@@ -1,7 +1,7 @@
 # E — concept capsule
 
 ## Premise
-The handle "JustAdev742" reads "just a dev". The work it signs is a party game, a game engine and an agent for an AI benchmark. The page makes the author the smallest text on the page and the work the largest: the names as a tower of single huge words, the handle as a 12px line at the end.
+The handle "JustAdev742" reads "just a dev". The work it signs is a party game and an agent for an AI benchmark. The page makes the author the smallest text on the page and the work the largest: the names as a tower of single huge words, the handle as a 12px line at the end.
 
 ## Type
 - **Recursive** — Stephen Nixon / Arrow Type. Primary source: github.com/arrowtype/recursive. SIL OFL 1.1, no Reserved Font Name. Embedded subset: MONO 0–1, CASL 0–1, wght 400–1000; slnt and CRSV pinned at 0. Fallback: generic sans-serif only.
